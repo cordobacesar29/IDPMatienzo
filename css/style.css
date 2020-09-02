@@ -1,0 +1,181 @@
+body {
+    width: auto;
+    padding: auto;
+    background: rgba(248,80,50,1);
+background: -moz-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(101,45,145,1) 76%, rgba(101,45,145,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(0%, rgba(241,111,92,1)), color-stop(0%, rgba(240,47,23,1)), color-stop(0%, rgba(246,41,12,1)), color-stop(76%, rgba(101,45,145,1)), color-stop(100%, rgba(101,45,145,1)));
+background: -webkit-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(101,45,145,1) 76%, rgba(101,45,145,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(101,45,145,1) 76%, rgba(101,45,145,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(101,45,145,1) 76%, rgba(101,45,145,1) 100%);
+background: linear-gradient(135deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(101,45,145,1) 76%, rgba(101,45,145,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#652d91', GradientType=1 );
+}
+
+#span {
+    margin-left: 10px;
+}
+#nav {
+    width: auto;
+    background: #eeeeee;
+    color: #2d3092;
+}
+#dropdown-menu {
+    color: #2d3092;
+}
+
+.carousel-item img {
+    background: #1762a3;
+    opacity: 0.8;
+}
+
+#nosotros {
+    width: auto;
+    background: #eeeeee;
+    border: 3px #2d3092;
+    color: #2d3092;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+#devocionales {
+    width: auto;
+    background: #eeeeee;
+    border: 3px #2d3092;
+    color: #2d3092;
+    text-align: center;
+    font-weight: 600;
+}
+
+.titulo-rojo {
+    color: #ec1c23;
+}
+.titulo-morado {
+    color: #652d91;
+}
+
+#buttom {
+    margin: 5px;
+    padding: 5px;
+    background: #652d91;
+    color: #eeeeee;
+    border-radius: 15px;
+}
+
+#buttom-red {
+    margin: 5px;
+    padding: 5px;
+    background: #ec1c23;
+    color: #eeeeee;
+    border-radius: 15px;
+}
+
+#buttom:hover{
+    background: #2d3092;
+    text-decoration: none;
+}
+
+#buttom-red:hover{
+    background: #2d3092;
+    text-decoration: none;
+}
+
+#redes-sociales{
+    width: auto;
+    background: #eeeeee;
+    border: 3px #2d3092;
+    color: #2d3092;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+#social {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 100%;
+}
+
+#social a:hover {
+    text-decoration: none;
+}
+#social .facebook {
+    background: #3b5998;
+}
+#social .twitter {
+    background: #55acee;
+}
+#social .youtube {
+    background: #cd201f;
+}
+
+#contact {
+    width: auto;
+    background: #eeeeee;
+    border: 3px #2d3092;
+    color: #2d3092;
+    text-align: center;
+    font-weight: 600;
+}
+
+.encuentranos {
+    margin: 5px 5px;
+    padding: auto;
+    color: #652d91;
+    text-shadow: 0px -0.5px 3px #ff0080;
+}
+
+footer {
+    margin: 5px 5px;
+    padding: 5px;
+    color: #eeeeee;
+}
+.redis {
+    text-align: center;
+}
+.redis a{
+    font-size: 25px;
+    color: #ff0080;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:450px) {
+    .logotipo a {
+        display: none;
+        margin: none;
+    }
+    .logotipo h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .img-responsive, #carousel-img {
+        width: 350px;
+        height: 200px;
+        justify-items: center;
+    }
+    .carousel {
+        width: 350px;
+        height: 200px;
+        justify-items: center;
+        background: gainsboro;
+    }
+    #video iframe {
+        width: 350px;
+        height: 200px;
+        margin: none;
+    }
+    #ubicacion iframe {
+        width: 350px;
+        height: 200px;
+        margin: none;
+    }
+}
